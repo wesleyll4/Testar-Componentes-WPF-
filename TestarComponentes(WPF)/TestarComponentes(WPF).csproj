@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TestarComponentes_WPF_</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>circuit_capacitor_512_q7u_icon.ico</ApplicationIcon>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <Company>Foxconn</Company>
+    <Authors>Wesley Rodrigo</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
